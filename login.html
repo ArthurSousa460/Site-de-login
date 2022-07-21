@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <section class="container">
+        <form class="form">
+            <h1 class="title">Faça o seu login</h1>
+            <div class="box ">
+                <label for="email-field">E-mail</label>
+                <input type="email" id="email-field" placeholder="Email" required>
+            </div>
+            <div class="box">
+                <label for="password-field">Senha</label>
+                <input type="password" id="password-field" placeholder="Senha" required>
+            </div>
+            <div class="double-box">
+                <div class="terms">
+                    <input type="checkbox" required>
+                    <span>Mantenha-me conectado</span>
+                </div>
+                <div class="terms">
+                    <a href="reset_password.html">Esqueci a senha</a>
+                </div>
+            </div>        
+            <button class="register">Entrar</button>
+            <p class="footer">Não tem conta? <a href="index.html">Cadastre-se</a></p>
+        </form>
+    </section>
+</body>
+</html>
